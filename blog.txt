@@ -1,0 +1,16 @@
+<Content
+
+	title
+	content
+	pub_date
+	categories
+
+Do you want to create another blog post? [Y/N]
+
+number of blogs created  (create variable)
+
+push posts into an array
+
+create a 'publish' method that will output blog posts to the terminal
+
+

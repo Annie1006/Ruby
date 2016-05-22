@@ -1,0 +1,19 @@
+puts "What is your number?"
+
+var_1 = gets.to_i
+
+var_1 += 5
+
+var_1 *= 2
+
+var_1 -= 4
+
+var_1 /= 2
+
+var_1 -= var_1
+
+puts "Always #{var_1}!"
+
+
+
+
