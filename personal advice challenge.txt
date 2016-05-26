@@ -1,0 +1,56 @@
+
+Back to Skillcrush 104
+
+    Prev 
+
+Lesson Challenge: Add a Personal Advice Page to the Skillcrush 104 Repository
+Lesson Challenge
+Add a Personal Advice Page to the Skillcrush 104 Repository
+What To Do:
+
+Time to collaborate!
+
+Before you get started, you should update your local copy of the Skillcrush 104 repository from the main repository.
+
+Do you remember how to do that??
+
+    In your terminal, make sure you have no uncommitted changes using the git status command. If you do, commit them.
+    Add the main repository as an upstream:
+    git remote add upstream git@github.com:skillcrush/skillcrush-104.git
+    1
+    	
+    git remote add upstream git@github.com:skillcrush/skillcrush-104.git
+    Pull any changes down into your forked version:
+    git pull upstream master
+    1
+    	
+    git pull upstream master
+
+The three files you’ll be working with are index.html, css/style.css and a new HTML file you’ll create by copying advice/advice-template.html to your own customized HTML file. You are going to create an advice page, style it up, and add a link to it on the main index page.
+
+Here’s what you need to do:
+
+        First, inside the advice folder, copy the advice-template.html file to a new HTML file and name it something specific to you. Something like emilydavis-advice.html or johnsmith-advice.html.
+        Open your file up in a text editor. You’ll see some default HTML and content. This is where you can get creative!
+        Replace the body class that looks like this:
+        <body class="skillcrush-advice">
+        1
+        	
+        <body class="skillcrush-advice">
+
+        To be your own name, like so:
+        <body class="emilydavis-advice">
+        1
+        	
+        <body class="emilydavis-advice">
+        Replace the placeholder content with your name and some advice you wish you had gotten when you were just starting out on your crazy code-filled journey. Things you’ve learned along the way, how to solve problems that vexed you, anything at all.You can also add any other HTML or content you want. This is your dedicated page to do with as you wish!
+        Now, style up your page using the style.css file.Important: Make sure you preface all your CSS styles with .yourname-advice so that you ONLY change the styles on your page, not everyone’s page!
+
+        And a note: If you want to use your own CSS file, that is a-okay. Just make sure you store it in the css folder.
+        When you’re satisfied with your advice page, add a link to it in the index.html file.
+        Commit and push your code to your repository, and then submit a pull request!
+
+When you’re finished, take a screenshot of your advice page and upload below.
+advice	
+Terms of Use Privacy Policy Have a question? Email us at hello@skillcrush.com
+Follow @skillcrush © 2016 Skillcrush, Inc. All Rights Reserved.
